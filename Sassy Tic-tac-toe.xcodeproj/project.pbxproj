@@ -14,6 +14,7 @@
 		836E71621B45BEE80037D770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836E71601B45BEE80037D770 /* LaunchScreen.storyboard */; };
 		836E716D1B45BEE80037D770 /* Sassy_Tic_tac_toeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E716C1B45BEE80037D770 /* Sassy_Tic_tac_toeTests.swift */; };
 		836E71781B45BEE80037D770 /* Sassy_Tic_tac_toeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E71771B45BEE80037D770 /* Sassy_Tic_tac_toeUITests.swift */; };
+		83DBFAAA1B4713A40040A261 /* GridLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DBFAA91B4713A40040A261 /* GridLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		836E71731B45BEE80037D770 /* Sassy Tic-tac-toeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sassy Tic-tac-toeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		836E71771B45BEE80037D770 /* Sassy_Tic_tac_toeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sassy_Tic_tac_toeUITests.swift; sourceTree = "<group>"; };
 		836E71791B45BEE80037D770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DBFAA91B4713A40040A261 /* GridLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridLabel.swift; path = ../GridLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				836E71571B45BEE80037D770 /* AppDelegate.swift */,
+				83DBFAA91B4713A40040A261 /* GridLabel.swift */,
 				836E71591B45BEE80037D770 /* ViewController.swift */,
 				836E715B1B45BEE80037D770 /* Main.storyboard */,
 				836E715E1B45BEE80037D770 /* Assets.xcassets */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DBFAAA1B4713A40040A261 /* GridLabel.swift in Sources */,
 				836E715A1B45BEE80037D770 /* ViewController.swift in Sources */,
 				836E71581B45BEE80037D770 /* AppDelegate.swift in Sources */,
 			);
@@ -483,6 +487,7 @@
 				836E717E1B45BEE80037D770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		836E717F1B45BEE80037D770 /* Build configuration list for PBXNativeTarget "Sassy Tic-tac-toeTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +496,7 @@
 				836E71811B45BEE80037D770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		836E71821B45BEE80037D770 /* Build configuration list for PBXNativeTarget "Sassy Tic-tac-toeUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +505,7 @@
 				836E71841B45BEE80037D770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
